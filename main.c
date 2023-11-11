@@ -18,6 +18,13 @@ int main() {
         printf("2 Listar tarefas.\n");
         printf("3 Deletar tarefas.\n");
         printf("4 Sair e salvar.\n");
+        printf("5 Alterar tarefa.\n");
+        printf("6 Filtrar por prioridade.\n");
+        printf("7 Filtrar por estado.\n");
+        printf("8 Filtrar por categoria e prioridade.\n");
+        printf("9 Exportar por prioridade.\n");
+        printf("10 Exportar por categoria.\n");
+        printf("11 Exportar por prioridade e categoria.\n");
         int escolha;
         scanf("%d", &escolha); // Lê a escolha do usuário
 
